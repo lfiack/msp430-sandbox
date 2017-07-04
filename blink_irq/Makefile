@@ -1,5 +1,5 @@
 #makefile configuration
-NAME	= blink_delay
+NAME	= blink_irq
 SRC		= $(wildcard *.c)
 OBJ		= $(SRC:.c=.o)
 

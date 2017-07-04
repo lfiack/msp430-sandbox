@@ -1,6 +1,7 @@
 # msp430-sandbox
 
-Some tests of the MSP-EXP430G2 kit from Texas Instruments.
+Some tests of the [MSP-EXP430G2](http://www.ti.com/tool/msp-exp430g2) kit from Texas Instruments.
+The kit uses a [MSP430g2553](http://www.ti.com/product/MSP430G2553) MCU whose datasheet can be found [here](http://www.ti.com/lit/ds/symlink/msp430g2553.pdf) and user guide [there](http://www.ti.com/lit/ug/slau144j/slau144j.pdf).
 
 ## Installing on Ubuntu 16.04
 
