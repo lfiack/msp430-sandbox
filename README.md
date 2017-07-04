@@ -13,18 +13,22 @@ msp430mcu - Spec files, headers and linker scripts for TI's MSP430 targets
 ```
 
 Install the compiler:
+
 `$ sudo apt-get install gcc-msp430`
 
 Install the debugger/program-the-board-stuff
+
 `$ sudo apt-get install mspdebug`
 
 Setup udev rules:
+
 `$ sudo vim /etc/udev/rules.d/46-TI_launchpad.rules`
 ```
 ATTRS{idVendor}=="0451", ATTRS{idProduct}=="f432", MODE="0660", GROUP="plugdev"
 ```
 
 Restart udev:
+
 `$ sudo /etc/init.d/udev restart`
 
 ## First program
@@ -43,4 +47,5 @@ run
 ```
 
 Or:
+
 `$ mspdebug rf2500 "prog main.elf"`
