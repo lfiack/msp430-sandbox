@@ -1,6 +1,6 @@
 # msp430-sandbox
 
-## Installation sous Ubuntu 16.04
+## Installing on Ubuntu 16.04
 
 `$ apt-cache search msp430`
 ```
