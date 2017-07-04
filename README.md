@@ -1,5 +1,7 @@
 # msp430-sandbox
 
+Some tests of the MSP-EXP430G2 kit from Texas Instruments.
+
 ## Installing on Ubuntu 16.04
 
 `$ apt-cache search msp430`
